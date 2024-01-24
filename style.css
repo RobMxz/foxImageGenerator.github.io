@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 800px;
+  height: 800px;
+  object-fit: cover;
+  border: #2a63b3 6px solid;
+  border-radius: 100% 0% 100% 0% / 30% 70% 30% 70%;
+}
+body {
+  background-color: #19202a;
+}
+#Content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#boton {
+  font-family: "Monaspace Neon";
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  border: #2a63b3 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #2a63b3;
+  background-color: transparent;
+  box-shadow: 0 0 0.3em 0.3em #2a63b3;
+  font-size: 1em;
+}
+#boton:hover {
+  animation: neonEffect 4s infinite alternate;
+}
+
+@keyframes neonEffect {
+  0% {
+    color: #2a63b3;
+    box-shadow: 0 0 0.3em 0.3em #2a63b3;
+  }
+  25% {
+    color: #00d9ff;
+    box-shadow: 0 0 0.3em 0.3em #00d9ff;
+  }
+  50% {
+    color: #00ffb7;
+    box-shadow: 0 0 0.3em 0.3em #00ffb7;
+  }
+  75% {
+    color: #00d9ff;
+    box-shadow: 0 0 0.3em 0.3em #00d9ff;
+  }
+  100% {
+    color: #2a63b3;
+    box-shadow: 0 0 0.3em 0.3em #2a63b3;
+  }
+}
+h1 {
+  font-family: "Monaspace Neon";
+  font-size: 2em;
+  color: #2a63b3;
+  text-shadow: 0 0 0.3em #2a63b3;
+  text-align: center;
+}
