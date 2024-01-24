@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 img {
-  width: 800px;
-  height: 800px;
+  width: 780px;
+  height: 780px;
   object-fit: cover;
   border: #2a63b3 6px solid;
   border-radius: 100% 0% 100% 0% / 30% 70% 30% 70%;
